@@ -1,25 +1,23 @@
-# Hamza Mehdi — Portfolio
+# SHM — Hamza Mehdi Portfolio
 
-A responsive, dark editorial-style portfolio for Syed Hamza Mehdi, built with semantic HTML, modern CSS, and lightweight JavaScript.
+A distinctive responsive portfolio with a midnight-indigo canvas, violet/pink/orange gradients, CSS-built 3D-inspired space scene, mouse-reactive hero depth, tilting project cards, and motion-aware scroll reveals.
 
-## Features
-- Responsive layout for mobile, tablet, and desktop
-- Project showcase, about section, skills, approach, and contact CTA
-- Subtle scroll-reveal animations with reduced-motion support
-- SEO and social preview metadata
-- No build step or framework required
+## Pages and assets
+- `index.html` — main portfolio, project links, social profiles, capabilities, and contact form
+- `cv.html` — print-ready CV with **Download CV · Save as PDF** button (uses the browser's print-to-PDF)
+- `favicon.svg` — custom SHM monogram tab icon
+
+## Projects
+SafeApp (Google Play), PostFlow (under development), NovexaHub, KyberQ (Google Play and App Store), TripsAdora, and Content-Nation (currently under Google Play review).
 
 ## Run locally
-Open `index.html` in a browser, or run a local server:
-
 ```bash
 python3 -m http.server 8000
 ```
+Open http://localhost:8000.
 
-Then visit http://localhost:8000.
-
-## Deploy to Vercel
-Import this GitHub repository in Vercel. Select **Other** as the framework preset if prompted, leave Build Command empty, and deploy the static site.
+## Deploy
+This is a static HTML/CSS/JS site; import the GitHub repository into Vercel and leave the build command empty. On each push to the connected branch, Vercel should deploy automatically.
 
 ## Customize
-Update the project cards, skills, and contact email in `index.html`. Add verified profile links as needed.
+Edit project descriptions/links in `index.html`; update resume content in `cv.html`. The contact form opens a pre-filled email draft; it does not submit to a backend.
