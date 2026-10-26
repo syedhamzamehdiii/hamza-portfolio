@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hamza-portfolio-livid.vercel.app/sitemap.xml
